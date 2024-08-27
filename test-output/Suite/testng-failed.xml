@@ -6,15 +6,21 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="OS" value="Windows 11"/>
-    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="Unit"/>
+        <include name="Integrated Flow"/>
+      </run>
+    </groups>
     <classes>
-      <class name="Test_Cases.TC_DataDriven_Stays">
+      <class name="Test_Cases.TC_Stays">
         <methods>
           <include name="quit"/>
+          <include name="TC_002_Date"/>
           <include name="All_browser"/>
-          <include name="TC_001_Stays_Smoke" invocation-numbers="2"/>
         </methods>
-      </class> <!-- Test_Cases.TC_DataDriven_Stays -->
+      </class> <!-- Test_Cases.TC_Stays -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -11,8 +11,8 @@
       <class name="Test_Cases.TC_Stays">
         <methods>
           <include name="quit"/>
-          <include name="All_browser"/>
           <include name="TC_002_Date"/>
+          <include name="All_browser"/>
         </methods>
       </class> <!-- Test_Cases.TC_Stays -->
     </classes>
