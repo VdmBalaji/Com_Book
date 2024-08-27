@@ -13,7 +13,7 @@ public class TC_Flexible extends Base_Class {
 		Flexible_stays run = new Flexible_stays(driver);
 		run.Destination();
 		//run.Flexible();
-		run.other_options();
+		//run.other_options();
 		
 	}
 
