@@ -55,9 +55,17 @@ public class ListenHere extends Base_Class implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) 
 	{
-		 String title =result.getName();
-		
-		 Create = extent.createTest(title);
+		 //String title =result.getName();
+		 
+		 String fullClassName =result.getTestClass().getName();
+		 
+		 int lastDotIndex = fullClassName.lastIndexOf('.');
+		    
+		 String className = fullClassName.substring(lastDotIndex + 1);
+		 
+		 String methodname = result.getMethod().getMethodName();
+		String title = className+ " : "+methodname;
+		Create = extent.createTest(title);
 		 
 		 Create.log(Status.INFO, "TEST STARTED:  " +title);
 		 
@@ -68,7 +76,17 @@ public class ListenHere extends Base_Class implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result)
 	{
-		String title = result.getName();
+		//String title = result.getName();
+		
+		String fullClassName =result.getTestClass().getName();
+		 
+		 int lastDotIndex = fullClassName.lastIndexOf('.');
+		    
+		 String className = fullClassName.substring(lastDotIndex + 1);
+		 
+		 String methodname = result.getMethod().getMethodName();
+		String title = className+ " : "+methodname;
+		
 		
 		Create.log(Status.PASS, "TEST PASSED:  " + title );
 		
@@ -83,11 +101,18 @@ public class ListenHere extends Base_Class implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		
-		String title =result.getName();
+		//String title =result.getName();
 		
-		System.out.print(title);
+		//System.out.print(title);
 		
-		
+		String fullClassName =result.getTestClass().getName();
+		 
+		 int lastDotIndex = fullClassName.lastIndexOf('.');
+		    
+		 String className = fullClassName.substring(lastDotIndex + 1);
+		 
+		 String methodname = result.getMethod().getMethodName();
+		String title = className+ " : "+methodname;
 		
 		Create.log(Status.FAIL,"TEST FAILED:  " +title);
 		

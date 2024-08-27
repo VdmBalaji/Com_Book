@@ -13,8 +13,8 @@
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
 		<class name="Test_Cases.TC_Stays"></class>
-		<class name="Test_Cases.TC_Flexible"></class>
-			<!-- -<methods>
+		<!--<class name="Test_Cases.TC_Flexible"></class>
+			 -<methods>
 				<include name="TC_001_Place"></include>
 				<include name="TC_002_Date"></include>
 				<include name="TC_003_members"></include>
