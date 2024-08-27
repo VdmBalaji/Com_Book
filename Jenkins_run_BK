@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo "Building the Project.........."
+                // Add any build commands here
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo "Testing the Project.........."
+                // Add any testing commands here
+            }
+        }
+        
+        stage('Process XML') {
+            steps {
+                echo "Processing DataFetch.xml.........."
+                script {
+                    // Read and process the DataFetch.xml file
+                    def xmlFile = readFile 'DataFetch.xml'
+                    echo "Contents of DataFetch.xml: ${xmlFile}"
+                    
+                    // You can add more logic here to parse and manipulate the XML if needed
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo "Deploying the Project.........."
+                // Add any deployment commands here
+            }
+        }
+    }
+}

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Date is selected ]]>
+    </line>
+    <line>
+      <![CDATA[Date is selected ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-27T12:27:12 IST" name="Suite" finished-at="2024-08-27T12:32:45 IST" duration-ms="332748">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T12:27:12 IST" name="Test" finished-at="2024-08-27T12:32:45 IST" duration-ms="332748">
+      <class name="Test_Cases.TC_DataDriven_Stays">
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:27:13 IST" name="All_browser" finished-at="2024-08-27T12:27:26 IST" duration-ms="12634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_browser -->
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:27:26 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-08-27T12:29:24 IST" duration-ms="118725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[March 2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[March 2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15 years old]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10 years old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[7 years old]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Stays_Smoke -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:29:24 IST" name="quit" finished-at="2024-08-27T12:29:24 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:29:24 IST" name="All_browser" finished-at="2024-08-27T12:29:56 IST" duration-ms="32002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_browser -->
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:29:56 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-08-27T12:30:01 IST" duration-ms="4243" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[August 2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[August 2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15 years old]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10 years old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[7 years old]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input name="ss" class="ada65db9b5" placeholder="Where are you going?" data-destination="1" autocomplete="off" aria-autocomplete="list" aria-controls="autocomplete-results" aria-haspopup="listbox" aria-label="Where are you going?" aria-expanded="false" role="combobox" id=":rh:" value=""> is not clickable at point (429, 125). Other element would receive the click: <div class="ab5581ebb7">...</div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c05da9beb0f6620b239a3083d253d91, clickElement {id=f.BC0C305E7B54AB96107906127FBB6DC3.d.B7F2BC84C748777A62F1886C21BA090E.e.271}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2339/devtool..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c05da9beb0f6620b239a3083d253d91)] -> xpath: //input[@class='ada65db9b5']]
+Session ID: 8c05da9beb0f6620b239a3083d253d91]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input name="ss" class="ada65db9b5" placeholder="Where are you going?" data-destination="1" autocomplete="off" aria-autocomplete="list" aria-controls="autocomplete-results" aria-haspopup="listbox" aria-label="Where are you going?" aria-expanded="false" role="combobox" id=":rh:" value=""> is not clickable at point (429, 125). Other element would receive the click: <div class="ab5581ebb7">...</div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c05da9beb0f6620b239a3083d253d91, clickElement {id=f.BC0C305E7B54AB96107906127FBB6DC3.d.B7F2BC84C748777A62F1886C21BA090E.e.271}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2339/devtool..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c05da9beb0f6620b239a3083d253d91)] -> xpath: //input[@class='ada65db9b5']]
+Session ID: 8c05da9beb0f6620b239a3083d253d91
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at Page_Object.Data_drive_stays.place(Data_drive_stays.java:63)
+at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Stays_Smoke -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:01 IST" name="quit" finished-at="2024-08-27T12:30:01 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:01 IST" name="All_browser" finished-at="2024-08-27T12:30:12 IST" duration-ms="11208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_browser -->
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:12 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-08-27T12:30:48 IST" duration-ms="35509" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beverley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Beverley Hills]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[October 2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[October 2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15 years old]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10 years old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[17 years old]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-controls='flexible-searchboxdatepicker']"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ee6d99aee29ddba76d2a5755712cc52, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2404/devtool..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee6d99aee29ddba76d2a5755712cc52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-controls='flexible-searchboxdatepicker']"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ee6d99aee29ddba76d2a5755712cc52, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2404/devtool..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ee6d99aee29ddba76d2a5755712cc52
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:102)
+at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Date is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Stays_Smoke -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:48 IST" name="quit" finished-at="2024-08-27T12:30:48 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:48 IST" name="All_browser" finished-at="2024-08-27T12:30:59 IST" duration-ms="10973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- All_browser -->
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:30:59 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-08-27T12:32:44 IST" duration-ms="105558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[January 2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[January 2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11 years old]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[6 years old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12 years old]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Date is selected ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Stays_Smoke -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-08-27T12:32:45 IST" name="quit" finished-at="2024-08-27T12:32:45 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Test_Cases.TC_DataDriven_Stays -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
