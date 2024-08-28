@@ -120,6 +120,7 @@
             <configuration>
                 <suiteXmlFiles>
                     <suiteXmlFile>Flexible.xml</suiteXmlFile>
+                     <suiteXmlFile>DataFetch.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
