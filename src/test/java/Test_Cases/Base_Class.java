@@ -36,8 +36,10 @@ public class Base_Class {
 	{
 		if (browser.equalsIgnoreCase("chrome"))
 		{
-			
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-gpu");
+		    options.addArguments("--window-size=1920,1080");
+			driver = new ChromeDriver(options);
 			
 			
 		}
