@@ -36,10 +36,6 @@ public class Base_Class {
 	{
 		if (browser.equalsIgnoreCase("chrome"))
 		{
-			//To run the browser headless
-			/*ChromeOptions headless = new ChromeOptions();
-			headless.addArguments("--headless");
-			driver = new ChromeDriver(headless);*/
 			
 			driver = new ChromeDriver();
 			
