@@ -1,0 +1,20 @@
+JENKINS deploy in another machine 
+
+1 – java setup – JAVA_HOME and path 
+2- Git setup – 2.46 or latest random
+3 -Jenkins installation – point java path 
+4 – Stop Jenkins service from services – Make it manual it will be defaulted to automatic 
+5 – run Jenkins using CMD (For browser run with head else it will run headless)
+  
+Here we are starting service
+6 – CMD command is “ java -jar Jenkins.war “  
+7 – Run local host - http://localhost:8080/
+8 – Make sure you remember the new credentials….bcs we don’t have forgot password option 
+9 -Install maven plugin in jenkins
+10 – under tools setting – configure JDK installations (path) , Git installations (git.exe) , Maven installations (install auto option)
+11- NOW actual – click new item with maven project selected 
+12 - Source Code Management – GIT
+13 – git – repo link and  git password 
+14 – Branch – master
+15 - Root POM – POM.xml  , goals – test
+16 – Apply and run 
