@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 27 15:17:30 IST 2024</td>
+<td>Started on:</td><td>Mon Sep 02 20:13:02 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>129 seconds (129216 ms)</td>
+<tr><td>Total time:</td><td>516 seconds (516862 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Integrated Flow Unit </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -76,48 +76,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test_Cases.TC_Stays.TC_002_Date()'><b>TC_002_Date</b><br>Test class: Test_Cases.TC_Stays<br/>
-<a href="#Output-303846650" onClick='toggleBox("Output-303846650", this, "Show output", "Hide output");'>Show output</a>
+<td title='Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke()'><b>TC_001_Stays_Smoke</b><br>Test class: Test_Cases.TC_DataDriven_Stays<br>Parameters: Beverley, Beverley Hills, October 2025, October 2025, 11, 23, 4, 3, 15 years old, 10 years old, 17 years old, 3<br/>
+<a href="#Output-172880465" onClick='toggleBox("Output-172880465", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-303846650" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-303846650">
+<a href="#Output-172880465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172880465">
 Date is selected <br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9, findElement {value=//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:20695, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14452, moz:profile: C:\Users\Balaji\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20695/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [253414bcaf698713a02b6896aa1c9e54, findElement {using=xpath, value=//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4026/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 253414bcaf698713a02b6896aa1c9e54
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at Page_Object.Stays.Date(Stays.java:91)
-	at Test_Cases.TC_Stays.TC_002_Date(TC_Stays.java:23)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:104)
+	at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:24)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace303846650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace303846650'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace172880465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172880465'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9, findElement {value=//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:20695, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14452, moz:profile: C:\Users\Balaji\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20695/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [253414bcaf698713a02b6896aa1c9e54, findElement {using=xpath, value=//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4026/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 253414bcaf698713a02b6896aa1c9e54
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,16 +131,16 @@ Session ID: e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at Page_Object.Stays.Date(Stays.java:91)
-	at Test_Cases.TC_Stays.TC_002_Date(TC_Stays.java:23)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:104)
+	at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -168,8 +170,8 @@ Session ID: e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>26</td>
-<td>Test_Cases.TC_Stays@4f80542f</td></tr>
+<td>32</td>
+<td>Test_Cases.TC_DataDriven_Stays@5824a83d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -180,10 +182,41 @@ Session ID: e6b6b7cb-285e-40f0-8d18-30eeeb9e5db9
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Test_Cases.TC_Stays.TC_001_Place()'><b>TC_001_Place</b><br>Test class: Test_Cases.TC_Stays</td>
+<td title='Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke()'><b>TC_001_Stays_Smoke</b><br>Test class: Test_Cases.TC_DataDriven_Stays<br>Parameters: New York, New York, August 2025, August 2025, 26, 30, 7, 3, 15 years old, 10 years old, 7 years old, 6<br/>
+<a href="#Output-1258159119" onClick='toggleBox("Output-1258159119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258159119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258159119">
+Date is selected <br/>
+</div>
+</td>
 <td></td>
-<td>12</td>
-<td>Test_Cases.TC_Stays@4f80542f</td></tr>
+<td>138</td>
+<td>Test_Cases.TC_DataDriven_Stays@5824a83d</td></tr>
+<tr>
+<td title='Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke()'><b>TC_001_Stays_Smoke</b><br>Test class: Test_Cases.TC_DataDriven_Stays<br>Parameters: Chennai, Chennai, January 2025, January 2025, 7, 12, 6, 3, 11 years old, 6 years old, 12 years old, 4<br/>
+<a href="#Output-429393578" onClick='toggleBox("Output-429393578", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429393578" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429393578">
+Date is selected <br/>
+</div>
+</td>
+<td></td>
+<td>102</td>
+<td>Test_Cases.TC_DataDriven_Stays@5824a83d</td></tr>
+<tr>
+<td title='Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke()'><b>TC_001_Stays_Smoke</b><br>Test class: Test_Cases.TC_DataDriven_Stays<br>Parameters: Cali, California, March 2025, March 2025, 15, 23, 5, 3, 15 years old, 10 years old, 7 years old, 7<br/>
+<a href="#Output-942733592" onClick='toggleBox("Output-942733592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-942733592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-942733592">
+Date is selected <br/>
+</div>
+</td>
+<td></td>
+<td>115</td>
+<td>Test_Cases.TC_DataDriven_Stays@5824a83d</td></tr>
 </table><p>
 </body>
 </html>
