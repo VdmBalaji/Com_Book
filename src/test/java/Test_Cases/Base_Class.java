@@ -95,7 +95,7 @@ public class Base_Class {
 			System.out.print("There is no such element");
 		}
 		
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		helper.call.Quick_wait();
 	}
 	

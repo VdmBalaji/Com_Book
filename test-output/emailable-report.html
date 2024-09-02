@@ -9,10 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">A Run for booking.com</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,667</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">516,862</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">A Run for booking.com &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Test_Cases.TC_Flexible</td><td><a href="#m0">TC_001_Destination</a></td><td rowspan="1">1724841619022</td><td rowspan="1">15606</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Test_Cases.TC_DataDriven_Stays</td><td><a href="#m0">TC_001_Stays_Smoke</a></td><td rowspan="1">1725288532180</td><td rowspan="1">32474</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Test_Cases.TC_DataDriven_Stays</td><td><a href="#m1">TC_001_Stays_Smoke</a></td><td rowspan="3">1725288361118</td><td rowspan="3">138735</td></tr><tr class="passedeven"><td><a href="#m2">TC_001_Stays_Smoke</a></td></tr><tr class="passedeven"><td><a href="#m3">TC_001_Stays_Smoke</a></td></tr></tbody>
 </table>
-<h2>A Run for booking.com</h2><h3 id="m0">Test_Cases.TC_Flexible#TC_001_Destination</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Test_Cases.TC_DataDriven_Stays#TC_001_Stays_Smoke</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>Beverley</td><td>Beverley Hills</td><td>October 2025</td><td>October 2025</td><td>11</td><td>23</td><td>4</td><td>3</td><td>15 years old</td><td>10 years old</td><td>17 years old</td><td>3</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Date is selected </div></td></tr><tr><th colspan="12">Exception</th></tr><tr><td colspan="12"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [253414bcaf698713a02b6896aa1c9e54, findElement {using=xpath, value=//button[@aria-controls=&apos;flexible-searchboxdatepicker&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4026/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 253414bcaf698713a02b6896aa1c9e54
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:104)
+	at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Test_Cases.TC_DataDriven_Stays#TC_001_Stays_Smoke</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>New York</td><td>New York</td><td>August 2025</td><td>August 2025</td><td>26</td><td>30</td><td>7</td><td>3</td><td>15 years old</td><td>10 years old</td><td>7 years old</td><td>6</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Date is selected </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Test_Cases.TC_DataDriven_Stays#TC_001_Stays_Smoke</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>Chennai</td><td>Chennai</td><td>January 2025</td><td>January 2025</td><td>7</td><td>12</td><td>6</td><td>3</td><td>11 years old</td><td>6 years old</td><td>12 years old</td><td>4</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Date is selected </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Test_Cases.TC_DataDriven_Stays#TC_001_Stays_Smoke</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>Cali</td><td>California</td><td>March 2025</td><td>March 2025</td><td>15</td><td>23</td><td>5</td><td>3</td><td>15 years old</td><td>10 years old</td><td>7 years old</td><td>7</td></tr><tr><th colspan="12">Messages</th></tr><tr><td colspan="12"><div class="messages">Date is selected </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

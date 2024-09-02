@@ -31,6 +31,8 @@ public class Data_drive_stays extends Base_Class {
 	@FindBy(xpath = "//input[@class='ada65db9b5']")
 	public static WebElement place;
 	
+	//input[@class='ada65db9b5']
+	
 	@FindBy
 	(xpath = "//div[normalize-space()='Browse by property type']")
 	WebElement moving;
@@ -58,8 +60,8 @@ public class Data_drive_stays extends Base_Class {
 
 	public void place(String search_place , String Dropdown_place) throws InterruptedException {
 		//helper.call.highlighter(driver, place);
-		helper.move(moving);
-		helper.call.Quick_wait();
+		//helper.move(moving);
+	    //helper.call.Quick_wait();
 		place.click();
 		helper.call.Quick_wait();
 		place.clear();
