@@ -14,12 +14,12 @@
       <![CDATA[Date is selected ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-02T20:13:02 IST" name="Suite" finished-at="2024-09-02T20:21:39 IST" duration-ms="516862">
+  <suite started-at="2024-09-27T13:09:52 IST" name="Suite" finished-at="2024-09-27T13:14:11 IST" duration-ms="259529">
     <groups>
     </groups>
-    <test started-at="2024-09-02T20:13:02 IST" name="Test" finished-at="2024-09-02T20:21:39 IST" duration-ms="516862">
+    <test started-at="2024-09-27T13:09:52 IST" name="Test" finished-at="2024-09-27T13:14:11 IST" duration-ms="259529">
       <class name="Test_Cases.TC_DataDriven_Stays">
-        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:13:03 IST" name="All_browser" finished-at="2024-09-02T20:13:35 IST" duration-ms="31240" status="PASS">
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:09:53 IST" name="All_browser" finished-at="2024-09-27T13:10:01 IST" duration-ms="8724" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_browser -->
-        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:13:35 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-02T20:15:30 IST" duration-ms="115540" status="PASS">
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:10:01 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-27T13:10:52 IST" duration-ms="50701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,11 +99,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Stays_Smoke -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:15:30 IST" name="quit" finished-at="2024-09-02T20:15:30 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:10:52 IST" name="quit" finished-at="2024-09-27T13:10:52 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:15:30 IST" name="All_browser" finished-at="2024-09-02T20:16:01 IST" duration-ms="30231" status="PASS">
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:10:52 IST" name="All_browser" finished-at="2024-09-27T13:11:26 IST" duration-ms="33440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_browser -->
-        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:16:01 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-02T20:18:19 IST" duration-ms="138735" status="PASS">
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:11:26 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-27T13:12:16 IST" duration-ms="50444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,11 +183,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Stays_Smoke -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:18:19 IST" name="quit" finished-at="2024-09-02T20:18:20 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:16 IST" name="quit" finished-at="2024-09-27T13:12:17 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:18:20 IST" name="All_browser" finished-at="2024-09-02T20:18:52 IST" duration-ms="32075" status="PASS">
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:17 IST" name="All_browser" finished-at="2024-09-27T13:12:24 IST" duration-ms="7152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_browser -->
-        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:18:52 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-02T20:19:24 IST" duration-ms="32474" status="FAIL">
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:24 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-27T13:12:48 IST" duration-ms="24514" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -264,25 +264,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-controls='flexible-searchboxdatepicker']"}
-  (Session info: chrome=128.0.6613.113)
+  (Session info: chrome=129.0.6668.60)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
+Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [253414bcaf698713a02b6896aa1c9e54, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4026/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 253414bcaf698713a02b6896aa1c9e54]]>
+Command: [a9501ab8817f69aca8c90b80df5d5094, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3692/devtool..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9501ab8817f69aca8c90b80df5d5094]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-controls='flexible-searchboxdatepicker']"}
-  (Session info: chrome=128.0.6613.113)
+  (Session info: chrome=129.0.6668.60)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
+Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [253414bcaf698713a02b6896aa1c9e54, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4026/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 253414bcaf698713a02b6896aa1c9e54
+Command: [a9501ab8817f69aca8c90b80df5d5094, findElement {using=xpath, value=//button[@aria-controls='flexible-searchboxdatepicker']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3692/devtool..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9501ab8817f69aca8c90b80df5d5094
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -302,7 +302,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:104)
+at Page_Object.Data_drive_stays.Date(Data_drive_stays.java:109)
 at Test_Cases.TC_DataDriven_Stays.TC_001_Stays_Smoke(TC_DataDriven_Stays.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -341,11 +341,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Stays_Smoke -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:19:24 IST" name="quit" finished-at="2024-09-02T20:19:24 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:49 IST" name="quit" finished-at="2024-09-27T13:12:49 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:19:24 IST" name="All_browser" finished-at="2024-09-02T20:19:56 IST" duration-ms="31519" status="PASS">
+        <test-method is-config="true" signature="All_browser(java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:49 IST" name="All_browser" finished-at="2024-09-27T13:12:55 IST" duration-ms="6557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,7 +356,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- All_browser -->
-        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:19:56 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-02T20:21:39 IST" duration-ms="102978" status="PASS">
+        <test-method signature="TC_001_Stays_Smoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:12:55 IST" name="TC_001_Stays_Smoke" data-provider="data" finished-at="2024-09-27T13:14:11 IST" duration-ms="75774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,7 +425,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Stays_Smoke -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5824a83d]" started-at="2024-09-02T20:21:39 IST" name="quit" finished-at="2024-09-02T20:21:39 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test_Cases.TC_DataDriven_Stays@5677323c]" started-at="2024-09-27T13:14:11 IST" name="quit" finished-at="2024-09-27T13:14:11 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

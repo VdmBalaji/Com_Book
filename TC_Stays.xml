@@ -10,7 +10,7 @@
   <test thread-count="1" name="Test">
 	  
 	  <parameter name="OS" value="Windows 11"></parameter>
-	  <parameter name="browser" value="firefox"></parameter>
+	  <parameter name="browser" value="chrome"></parameter>
 	  <groups>
 		  <run>
 			  <include name="Unit"></include>

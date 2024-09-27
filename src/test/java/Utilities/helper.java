@@ -14,7 +14,7 @@ public class helper extends Base_Class {
 	
 	public static void Quick_wait () throws InterruptedException
 	{
-	  Thread.sleep(3000);
+	  Thread.sleep(1000);
 	}
 	
 	

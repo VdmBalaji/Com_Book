@@ -28,7 +28,7 @@ public class Data_drive_stays extends Base_Class {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//input[@class='ada65db9b5']")
+	@FindBy(xpath = "//input[@id=':rh:']")
 	public static WebElement place;
 	
 	//input[@class='ada65db9b5']
@@ -39,7 +39,7 @@ public class Data_drive_stays extends Base_Class {
 
 	// ul[@role= 'group']//div[@class='ad3c4dc079 e2f45f66c9']
 
-	@FindBy(xpath = "//ul[@role= 'group']//div[@class='ad3c4dc079 e2f45f66c9']")
+	@FindBy(xpath = "//ul[@role= 'group']//div[@class='a3332d346a d2f04c9037']")
 	//ul[@role='group']//div[@class='ad3c4dc079 e2f45f66c9']
 	public static List<WebElement> List_Place;
 
@@ -84,10 +84,15 @@ public class Data_drive_stays extends Base_Class {
 		}
 	}
 
-	@FindBy(xpath = "(//table[@class='c0d46ba7c8'])[1]//span")
+	@FindBy(xpath = "(//table[@class='eb03f3f27f'])[1]//span")
+
+			//(//table[@class='c0d46ba7c8'])[1]//span
 	List<WebElement> table_1;
 
-	@FindBy(xpath = "(//table[@class='c0d46ba7c8'])[2]//span")
+	@FindBy(xpath = "(//table[@class='eb03f3f27f'])[2]//span")
+	
+	
+			//(//table[@class='c0d46ba7c8'])[2]//span
 	List<WebElement> table_2;
 
 	@FindBy(xpath = "//button[@aria-label='Next month']")
@@ -293,16 +298,16 @@ public class Data_drive_stays extends Base_Class {
 	@FindBy(xpath = "//button[@data-testid='occupancy-config']")
 	WebElement members;
 
-	@FindBy(xpath = "(//button[@class='dba1b3bddf e99c25fd33 aabf155f9a f42ee7b31a a86bcdb87f e137a4dfeb d1821e6945'])[1]")
+	@FindBy(xpath = "(//button[@class='a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 bb803d8689 f4d78af12a'])[1]")
 	WebElement plus_button;
 
-	@FindBy(xpath = "(//span[@class='fb7047f72a'])[1]")
+	@FindBy(xpath = "(//span[@class='d723d73d5f'])[1]")
 	WebElement value;
 
-	@FindBy(xpath = "(//button[@class='dba1b3bddf e99c25fd33 aabf155f9a f42ee7b31a a86bcdb87f e137a4dfeb d1821e6945'])[2]")
+	@FindBy(xpath = "(//button[@class='a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 bb803d8689 f4d78af12a'])[2]")
 	WebElement plus_child;
 
-	@FindBy(xpath = "(//span[@class='fb7047f72a'])[2]")
+	@FindBy(xpath = "(//span[@class='d723d73d5f'])[2]")
 	WebElement value_2;
 
 	@FindBy(xpath = "(//select[@name='age'])[1]")
@@ -327,15 +332,15 @@ public class Data_drive_stays extends Base_Class {
 	List <WebElement> dropdown3;
 	
 	@FindBy
-	(xpath ="(//button[@class='dba1b3bddf e99c25fd33 aabf155f9a f42ee7b31a a86bcdb87f e137a4dfeb d1821e6945'])[3]")
+	(xpath ="(//button[@class='a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 bb803d8689 f4d78af12a'])[3]")
 	WebElement room_plus;
 	
-	@FindBy(xpath = "(//span[@class='fb7047f72a'])[3]")
+	@FindBy(xpath = "(//span[@class='d723d73d5f'])[3]")
 	WebElement value_3;
 	
 	//span[@class='aa33d1ad7a']
 	
-	@FindBy(xpath = "//span[@class='aa33d1ad7a']")
+	@FindBy(xpath = "//span[@class='ade77cee67']")
 	WebElement toggle;
 	
 	
