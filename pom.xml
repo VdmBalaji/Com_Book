@@ -124,7 +124,7 @@
                 <suiteXmlFiles>
                     <!-- <suiteXmlFile>Flexible.xml</suiteXmlFile>
                      <suiteXmlFile>DataFetch.xml</suiteXmlFile>-->
-                     <suiteXmlFile>ALL_TC.xml</suiteXmlFile>
+                     <suiteXmlFile>DataFetch.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
